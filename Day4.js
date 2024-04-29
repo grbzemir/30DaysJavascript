@@ -37,3 +37,47 @@ else {
     console.log('Yanliş')
 }
 
+switch (result) {
+
+    case 7:
+        console.log('Doğru')
+        break;
+    default:
+        console.log('Yanliş')
+}
+
+
+// let weather = 'rainy'
+
+// switch (weather) {
+
+//     case 'rainy':
+//         console.log('Yağmurlu')
+//         break;
+//     case 'sunny':
+//         console.log('Güneşli')
+//         break;
+//     case 'snowy':
+//         console.log('Karli')
+//         break;
+//     default:
+//         console.log('Hava durumu bilinmiyor')
+// }
+
+
+let myAge = 28;
+let yourAge = parseInt(prompt('Yaşinizi giriniz', ""));
+
+if (yourAge == myAge) {
+    alert('Yaşlarimiz eşit')
+}
+
+else if (yourAge > myAge) {
+    alert('Sen daha büyüksün')
+}
+
+else {
+
+    alert('Ben daha büyüğüm')
+}
+
