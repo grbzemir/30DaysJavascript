@@ -77,8 +77,21 @@ let name2 = 'emir gürbüz'
 
 name.split(' ') // ['emir', 'gürbüz']
 
-let str1 = 'merhaba emir nasilsin emir?'
-str.replace('tayfun', 'ahmet')
+// let str1 = 'merhaba emir nasilsin emir?'
+// str.replace('tayfun', 'ahmet')
 
-let str2 = 'merhaba emir nasilsin emir?'
-str.replaceAll('tayfun', 'ahmet')
+// let str2 = 'merhaba emir nasilsin emir?'
+// str.replaceAll('tayfun', 'ahmet')
+
+// alert('Naber Nasilsin');
+// prompt("bir sayi giriniz");
+
+
+let sayi = prompt('Bir sayi giriniz', '5')
+let result = sayi * 2
+
+console.log(result)
+
+
+
+
