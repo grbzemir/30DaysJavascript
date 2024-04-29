@@ -52,3 +52,33 @@ let user2 = {
 
 console.log(user1 == user2) // false
 
+let name = 'emir'
+let surname = 'gürbüz'
+let a = 3
+let b = 5
+
+// let fullName = name + ' ' + surname
+// console.log(fullName)
+
+let fullName = `${name} 
+
+test 
+deneme
+
+a + b = ${a + b}
+
+${surname}`
+
+console.log(fullName)
+
+//SUBSTR ilk parametreyi alır, ikinci parametrede verilen rakama göre hangi karakterden başlayacağını ve son parametreye göre de kaç karakter döndüreceğini anlar.
+
+let name2 = 'emir gürbüz'
+
+name.split(' ') // ['emir', 'gürbüz']
+
+let str1 = 'merhaba emir nasilsin emir?'
+str.replace('tayfun', 'ahmet')
+
+let str2 = 'merhaba emir nasilsin emir?'
+str.replaceAll('tayfun', 'ahmet')
