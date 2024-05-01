@@ -80,7 +80,24 @@ const person =
 
 // let keyName = 'age';
 
+person.name = 'Tayfun';
+person.skills.push('MongoDB');
+person.skills.push('SQL');
+
+user.getPersonInfo = function () {
+
+    let skillsWithoutLastSkill = this.skills.splice(0, this.skills.length - 1);
+    let lastSkill = this.skillsçat(-1);
+    let skills = `${skillsWithoutLastOne} and ${lastSkill}`
+    let fullName = this.getFullName();
+}
+
 console.log(person);
 console.log(person.LastName);
 console.log(person.skills);
+
+/*Yeni bir şey ekleyemezsin silemezsin var olan şeyleri güncelleyebilirsin*/
+// Object.seal()
+/*Paramete olarak aldığı nesneye ait özelliklerin değiştirilmesini engeller*/
+// Object.freeze()
 
