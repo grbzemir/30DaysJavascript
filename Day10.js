@@ -1,6 +1,6 @@
 
-// set her veri tipinde değer tutabilir
-//benzersiz değerleri tutan bir JavaScript nesnesidir.
+//Set her veri tipinde değer tutabilir
+//Benzersiz değerleri tutan bir JavaScript nesnesidir.
 // const names = ['tayfun', 'ahmet', 'mehmet'];
 // const namesSet = new Set();
 
@@ -63,4 +63,31 @@ for (let lang of langSet) {
 console.log(counts);
 
 
+// const a = [1, 2, 3, 4, 5];
+// const b = [3, 4, 5, 6, 7];
 
+// const c = [...a, ...b];
+
+// let A = new Set(a);
+// let B = new Set(b);
+// let C = new Set(c);
+
+// console.log(C);
+
+
+// const d = [1, 2, 3, 4, 5];
+// const e = [3, 4, 5, 6, 7];
+
+// const G = new Set(G);
+// const F = new Set(a.filter(num => B.has(num)));
+// console.log(F);
+
+
+// const a = [1, 2, 3, 4, 5];
+// const b = [3, 4, 5, 6];
+
+// let A = new Set(a);
+// let B = new Set(B);
+// console.log(
+//     a.filter(num => !B.has(num))
+// )
