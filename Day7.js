@@ -45,4 +45,68 @@ function topla() {
     return total;
 }
 
-topla(2, 3, 4, 5, 6);
+console.log(topla(2, 3, 4, 5, 6));
+
+const sayHello = function (name) {
+    return `Hello, ${name}`;
+
+}
+
+console.log(sayHello('Asabeneh'));
+
+
+//Normal function
+
+function Hello(name) {
+
+    return `Hello, ${name}`;
+
+}
+
+
+
+// Arrow Function
+
+const hello2 = name => `Hello, ${name}`;
+
+console.log(hello2('Emir'));
+
+
+
+const toplama = (num1, ...numbers) => {
+
+    console.log(num1)
+    console.log(numbers)
+
+
+}
+
+toplama(2, 5, 7, 8, 10)
+
+console.log(hello2('Emir', 'Altan'));
+
+
+function multiply(num1, num2 = 6) {
+    return num1 * num2;
+
+}
+
+console.log(multiply(10));
+
+
+function test() {
+    console.log('Merhaba');
+
+}
+
+//call
+test()
+
+function invoker(func) {
+
+}
+
+//invoke
+invoker(test);
+
+
