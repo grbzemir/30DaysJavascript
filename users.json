@@ -1,0 +1,29 @@
+let sampleJSON = `[
+    {
+        "name": "John",
+        "age": 30,
+        "city": "New York"
+    },
+    {
+        "name": "Jane",
+        "age": 25,
+        "city": "San Francisco"
+    }
+]`;
+
+let users = JSON.parse(sampleJSON);
+console.log(users);
+console.log(typeof users);
+
+try
+{
+    let users = JSON.parse(sampleJSON);
+    console.log(users);
+
+}
+
+catch(error)
+{
+    console.log(error.message);
+}
+
