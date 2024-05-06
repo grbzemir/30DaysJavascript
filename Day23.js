@@ -57,7 +57,8 @@ const saveButton = document.getElementById('save-btn')
 saveButton.addEventListener('click', e => {
     console.log(input.value,
         colorInput.value,
-        saveRulesCheckBox.checked
+        saveRulesCheckBox.checked,
+        form.elements.stack.value
     )
 })
 
@@ -70,4 +71,10 @@ genderSelect.addEventListener('change', e => {
 )
 
 const saveRulesCheckBox = document.getElementById('save-rules')
+
+console.log(document.querySelector('input[name=stack]').checked
+
+)
+
+const form = document.getElementById('form')
 

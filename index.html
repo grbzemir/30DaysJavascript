@@ -41,41 +41,44 @@
         <!-- <h1>Test</h1> -->
         <!-- <script src="Day22.js"></script> -->,
 
-        <input type="color" id="color-picker">
-        <input type="text" id="name" placeholder="Adinizi yazin">
-        <button id="save-btn">Kaydet</button>
-        <select id="gender">
-            <option value="">Sec</option>
-            <option value="Erkek">Erkek</option>
-            <option value="Kadin">Kadin</option>
-        </select>
-        <label>
-            <input type="checkbox" id="save-rules">
-            Kurallari kabul Ediyorum
-        </label>
+        <form id="form" onsubmit="return false">
 
-        <hr>
+            <input type="color" id="color-picker">
+            <input type="text" id="name" placeholder="Adinizi yazin">
+            <button id="save-btn">Kaydet</button>
+            <select id="gender">
+                <option value>Sec</option>
+                <option value="Erkek">Erkek</option>
+                <option value="Kadin">Kadin</option>
+            </select>
+            <label>
+                <input type="checkbox" id="save-rules">
+                Kurallari kabul Ediyorum
+            </label>
+            <div>
+                <label>
+                    <input type="radio" name="stack" value="lamp">
+                    lamp
+                </label>
+                <label>
+                    <input type="radio" name="stack" value="wamp">
+                    wamp
+                </label>
+            </div>
 
-        <button id="btn">Button</button>
-        <button id="btn2">Button 2</button>
+            <hr>
 
+            <button id="btn">Button</button>
+            <button id="btn2">Button 2</button>
 
-        <img src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/images/day_1_1.png"
-        
+            <img
+                src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/images/day_1_1.png"
+                </form>
 
-         
+            <script src="Day23.js"></script>
 
+        </head>
+        <body>
 
-
-
-
-
-
-
-        <script src="Day23.js"></script>
-
-    </head>
-    <body>
-
-    </body>
-</html>
+        </body>
+    </html>
